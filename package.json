@@ -11,8 +11,8 @@
     "test": "mocha test/index.js",
     "test-cov": "nyc --reporter=lcovonly npm run test -- --no-parallel",
     "lint-staged": "lint-staged",
-    "build": "hexo clean && hexo generate",
-    "server": "hexo server"
+    "build": "node ./node_modules/hexo-cli/bin/hexo clean && node ./node_modules/hexo-cli/bin/hexo generate",
+    "server": "node ./node_modules/hexo-cli/bin/hexo server"
   },
   "directories": {
     "lib": "./lib",
