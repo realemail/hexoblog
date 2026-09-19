@@ -65,6 +65,7 @@
     "warehouse": "^4.0.0"
   },
   "devDependencies": {
+    "hexo-cli": "^4.3.2",
     "@easyops/git-exec-and-restage": "^1.0.4",
     "0x": "^4.10.2",
     "chai": "^4.2.0",
